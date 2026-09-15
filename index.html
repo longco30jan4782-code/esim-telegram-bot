@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="eSIM × Telegram 下单机器人：让国际移动数据从选择、付款到交付都更快、更清晰、更适合自动化运营。">
+  <title>eSIM Commerce Layer · Telegram 下单机器人</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="eSIM Commerce Layer 首页">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>eSIM<span class="brand-muted">/</span>BOT</span>
+    </a>
+    <nav class="nav" aria-label="页面导航">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#flow">Flow</a>
+      <a href="#security">Security</a>
+      <a class="nav-button" href="#start">进入 Telegram <span>↗</span></a>
+    </nav>
+    <button class="menu-toggle" aria-label="打开导航" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="kicker"><span class="pulse"></span> TELEGRAM COMMERCE LAYER <span class="version">v1.0 / public</span></div>
+        <h1>把一张 eSIM，<br><em>变成一条可下单的链路。</em></h1>
+        <p class="hero-lead">从选线路到收到激活信息，Telegram 下单机器人把国际移动数据的购买流程压缩进一个熟悉的对话窗口。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#start">在 Telegram 开始 <span>↗</span></a>
+          <a class="text-link" href="#flow">查看公开流程 <span>↓</span></a>
+        </div>
+        <div class="hero-metrics">
+          <div><strong>24H</strong><span>自动交付节奏</span></div>
+          <div><strong>4G/5G</strong><span>移动数据网络</span></div>
+          <div><strong>∞</strong><span>按需选择线路</span></div>
+        </div>
+      </div>
+
+      <div class="bot-window" aria-label="Telegram 下单机器人流程示意">
+        <div class="window-bar">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span class="window-title">telegram / esim-order-bot</span>
+          <span class="live"><b></b> live</span>
+        </div>
+        <div class="chat-meta"><div class="bot-avatar">e</div><div><strong>eSIM Assistant</strong><small>通常几秒内回复</small></div><span class="more">•••</span></div>
+        <div class="chat-body">
+          <div class="date-stamp">TODAY · PUBLIC FLOW</div>
+          <div class="bubble bot-bubble">你好。选择你要使用的网络场景，我来帮你找到合适的 eSIM。</div>
+          <div class="choice-grid">
+            <button data-choice="旅行上网">✈ 旅行上网</button>
+            <button data-choice="香港线路">⌁ 香港线路</button>
+            <button data-choice="长期备用">◫ 长期备用</button>
+            <button data-choice="接收短信">▣ 接收短信</button>
+          </div>
+          <div class="bubble user-bubble" id="user-bubble">香港线路</div>
+          <div class="bubble bot-bubble result-bubble"><span class="check">✓</span><span>已匹配公开套餐<br><small>支持在线交付 · 具体覆盖以套餐说明为准</small></span></div>
+          <div class="bot-status"><span class="typing"><i></i><i></i><i></i></span> bot is arranging the next step</div>
+        </div>
+        <div class="window-foot"><span>PUBLIC VIEW ONLY</span><span>no private keys · no endpoints</span></div>
+      </div>
+    </section>
+
+    <section class="signal-strip"><div class="shell signal-inner"><span>BUILT FOR</span><strong>快速开通</strong><i></i><strong>少一步等待</strong><i></i><strong>移动数据链路</strong><i></i><strong>轻量化分销</strong><span class="strip-code">// keep it simple</span></div></section>
+
+    <section class="section shell" id="capabilities">
+      <div class="section-intro"><div class="section-number">01 / 03</div><div><p class="kicker">PRODUCT CAPABILITIES</p><h2>一套产品，<br><em>两种体验。</em></h2></div><p class="intro-copy">对终端用户，它是一个更快的 eSIM 购买入口；对渠道和团队，它是一层可持续运营的 Telegram 商业界面。</p></div>
+      <div class="capability-grid">
+        <article class="capability-card card-large"><span class="card-index">A / USER</span><div class="card-icon">↯</div><h3>用户侧：对话即下单</h3><p>无需跳转复杂页面。用户可以在 Telegram 内了解线路、比较场景、完成购买，并获得后续安装所需的信息。</p><ul><li>场景化选套餐</li><li>在线交付，不等传统邮寄</li><li>适合手机、热点与备用网络</li></ul><span class="card-corner">/ user-flow</span></article>
+        <article class="capability-card"><span class="card-index">B / CHANNEL</span><div class="card-icon lime">◎</div><h3>渠道侧：轻量化分发</h3><p>从手动拿货到自动化运营，给个人卖家、社群主和小团队一个更轻的起点。</p><div class="mini-code"><span>01</span> 余额制拿货<br><span>02</span> 手动 / 自动化均可<br><span>03</span> 适合 TG 生态成交</div></article>
+        <article class="capability-card"><span class="card-index">C / NETWORK</span><div class="card-icon coral">⌁</div><h3>线路侧：按需选择</h3><p>旅行、香港线路、长期备用、短信接收等需求，分别对应不同套餐规则与覆盖范围。</p><div class="route-tags"><span>HK</span><span>JP</span><span>KR</span><span>US</span><span>GLOBAL</span></div></article>
+      </div>
+    </section>
+
+    <section class="section flow-section" id="flow">
+      <div class="shell">
+        <div class="section-intro"><div class="section-number">02 / 03</div><div><p class="kicker">PUBLIC ORDER FLOW</p><h2>像聊天一样下单，<br><em>像产品一样交付。</em></h2></div><p class="intro-copy">公开页面只解释用户能看到的流程。真正的接口、密钥、回调和后台实现，全部留在受控系统内。</p></div>
+        <div class="flow-line">
+          <article class="flow-step"><div class="step-no">01</div><div class="step-line"></div><h3>Choose</h3><p>告诉机器人你的使用场景，先从需求而不是参数开始。</p><span>场景 → 线路</span></article>
+          <article class="flow-step"><div class="step-no">02</div><div class="step-line"></div><h3>Confirm</h3><p>查看公开的套餐信息、适用地区、有效期和注意事项。</p><span>信息 → 决策</span></article>
+          <article class="flow-step"><div class="step-no">03</div><div class="step-line"></div><h3>Pay</h3><p>在明确规则后完成付款，减少来回沟通和人工确认。</p><span>确认 → 付款</span></article>
+          <article class="flow-step"><div class="step-no">04</div><div class="step-line"></div><h3>Receive</h3><p>获得后续安装所需的交付信息，按说明配置移动数据。</p><span>交付 → 上线</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell security-section" id="security">
+      <div class="section-intro"><div class="section-number">03 / 03</div><div><p class="kicker">SECURITY BY SURFACE</p><h2>只公开价值，<br><em>不公开内部。</em></h2></div><p class="intro-copy">这不是接口文档，也不是后台说明。它是一页面向用户和合作方的产品入口，边界从内容层就开始建立。</p></div>
+      <div class="security-board">
+        <div class="board-head"><span>PUBLIC SURFACE</span><span>CONTROLLED SURFACE</span></div>
+        <div class="board-row"><div><b>✓</b> 套餐能力与使用场景</div><div><b class="locked">×</b> API 地址与请求结构</div></div>
+        <div class="board-row"><div><b>✓</b> 用户可见的下单步骤</div><div><b class="locked">×</b> Token、密钥与 Webhook</div></div>
+        <div class="board-row"><div><b>✓</b> 设备兼容与使用提醒</div><div><b class="locked">×</b> 供应商、后台与库存细节</div></div>
+        <div class="board-row"><div><b>✓</b> 公开入口与客服路径</div><div><b class="locked">×</b> 内部管理和代理接口</div></div>
+        <div class="board-foot"><span class="status-dot"></span> surface policy: public / safe / conversion-ready <span>↗</span></div>
+      </div>
+    </section>
+
+    <section class="cta shell" id="start"><div><p class="kicker">READY WHEN YOU ARE</p><h2>先从一个 Telegram 对话开始。</h2><p>不等快递，不用先理解复杂技术。选择适合你的 eSIM 场景，剩下的交给清晰的公开流程。</p></div><a class="button button-primary" href="#top">打开 Telegram 入口 <span>↗</span></a></section>
+  </main>
+
+  <footer class="site-footer shell"><span>eSIM/BOT · public product page</span><span>© 2026 · use responsibly</span><span>套餐覆盖、价格与可用性以实际页面说明为准。</span></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
