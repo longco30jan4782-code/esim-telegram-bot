@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="esimka.top 官方 Telegram 下单机器人：低至 3.5 CNY/G 的国际 eSIM，香港 IP、香港号码短信、24 小时自动交付，直接在 Telegram 选择和下单。">
+  <title>esimka.top · Telegram eSIM 下单机器人</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="eSIM Commerce Layer 首页">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>esimka<span class="brand-muted">/</span>BOT</span>
+    </a>
+    <nav class="nav" aria-label="页面导航">
+      <a href="#capabilities">为什么值得买</a>
+      <a href="#flow">怎么下单</a>
+      <a href="#security">适合谁</a>
+      <a class="nav-button" href="https://t.me/esimka_orderbot" target="_blank" rel="noopener">立即选套餐 <span>↗</span></a>
+    </nav>
+    <button class="menu-toggle" aria-label="打开导航" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="kicker"><span class="pulse"></span> ESIMKA.TOP · OFFICIAL ORDER BOT <span class="version">公开入口</span></div>
+        <h1>国际 eSIM，<br><em>直接在 Telegram 下单。</em></h1>
+        <p class="hero-lead">低至 3.5 CNY/G 的精选套餐，支持香港 IP、香港号码短信和移动热点。打开机器人，按你的使用场景选线路，付款后在线获取安装信息。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://t.me/esimka_orderbot" target="_blank" rel="noopener">打开机器人选套餐 <span>↗</span></a>
+          <a class="text-link" href="#capabilities">先看核心优势 <span>↓</span></a>
+        </div>
+        <div class="hero-metrics">
+          <div><strong>3.5 CNY/G</strong><span>精选套餐低至</span></div>
+          <div><strong>24H</strong><span>自动交付</span></div>
+          <div><strong>HK IP</strong><span>号码短信可选</span></div>
+        </div>
+      </div>
+
+      <div class="bot-window" aria-label="Telegram 下单机器人流程示意">
+        <div class="window-bar">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span class="window-title">telegram / esim-order-bot</span>
+          <span class="live"><b></b> live</span>
+        </div>
+        <div class="chat-meta"><div class="bot-avatar">e</div><div><strong>eSIM Assistant</strong><small>通常几秒内回复</small></div><span class="more">•••</span></div>
+        <div class="chat-body">
+          <div class="date-stamp">TODAY · PUBLIC FLOW</div>
+          <div class="bubble bot-bubble">你好。选择你要使用的网络场景，我来帮你找到合适的 eSIM。</div>
+          <div class="choice-grid">
+            <button data-choice="旅行上网">✈ 旅行上网</button>
+            <button data-choice="香港线路">⌁ 香港线路</button>
+            <button data-choice="长期备用">◫ 长期备用</button>
+            <button data-choice="接收短信">▣ 接收短信</button>
+          </div>
+          <div class="bubble user-bubble" id="user-bubble">香港线路</div>
+          <div class="bubble bot-bubble result-bubble"><span class="check">✓</span><span>已匹配公开套餐<br><small>支持在线交付 · 具体覆盖以套餐说明为准</small></span></div>
+          <div class="bot-status"><span class="typing"><i></i><i></i><i></i></span> bot is arranging the next step</div>
+        </div>
+        <div class="window-foot"><span>PUBLIC VIEW ONLY</span><span>no private keys · no endpoints</span></div>
+      </div>
+    </section>
+
+    <section class="signal-strip"><div class="shell signal-inner"><span>WHY ESIMKA</span><strong>低至 3.5 CNY/G</strong><i></i><strong>24H 自动交付</strong><i></i><strong>香港 IP + 短信</strong><i></i><strong>无需等邮寄</strong><span class="strip-code">// choose less / get more</span></div></section>
+
+    <section class="section shell" id="capabilities">
+      <div class="section-intro"><div class="section-number">01 / 03</div><div><p class="kicker">WHY PEOPLE BUY</p><h2>少等、少绕路，<br><em>直接拿到可用网络。</em></h2></div><p class="intro-copy">你不需要先研究复杂参数。告诉机器人你要去哪里、要不要短信或热点，它会把购买路径缩短到一个 Telegram 对话。</p></div>
+      <div class="capability-grid">
+        <article class="capability-card card-large"><span class="card-index">01 / SAVE TIME</span><div class="card-icon">↯</div><h3>不用等邮寄，在线交付</h3><p>支持 eSIM 的手机可以在线获取激活信息并扫码安装。临时出差、落地备用、急用国际网络，不必再等传统 SIM 卡快递。</p><ul><li>24 小时自动交付</li><li>减少收件与物流等待</li><li>手机可开热点给电脑和平板</li></ul><span class="card-corner">/ less waiting</span></article>
+        <article class="capability-card"><span class="card-index">02 / STAY CONNECTED</span><div class="card-icon lime">◎</div><h3>香港 IP + 香港号码短信</h3><p>部分套餐同时覆盖香港网络场景与号码短信需求，适合港区应用、账号验证和长期备用。</p><div class="mini-code"><span>01</span> 香港 IP 场景<br><span>02</span> 香港号码短信可选<br><span>03</span> 具体以套餐说明为准</div></article>
+        <article class="capability-card"><span class="card-index">03 / KEEP USING</span><div class="card-icon coral">⌁</div><h3>续费保留原号码</h3><p>需要长期备用或持续接收短信？支持续费的套餐可以减少频繁换号的麻烦，具体以套餐规则为准。</p><div class="route-tags"><span>LONG-TERM</span><span>SMS</span><span>HOTSPOT</span></div></article>
+      </div>
+    </section>
+
+    <section class="section flow-section" id="flow">
+      <div class="shell">
+        <div class="section-intro"><div class="section-number">02 / 03</div><div><p class="kicker">HOW TO ORDER</p><h2>四步完成购买，<br><em>不需要来回问客服。</em></h2></div><p class="intro-copy">直接打开 <a class="inline-link" href="https://t.me/esimka_orderbot" target="_blank" rel="noopener">@esimka_orderbot</a>，从使用场景开始选择。套餐价格、覆盖、有效期和短信/热点规则以机器人展示为准。</p></div>
+        <div class="flow-line">
+          <article class="flow-step"><div class="step-no">01</div><div class="step-line"></div><h3>选场景</h3><p>旅行、香港线路、长期备用或短信接收，先说你要怎么用。</p><span>需求 → 方案</span></article>
+          <article class="flow-step"><div class="step-no">02</div><div class="step-line"></div><h3>看套餐</h3><p>确认地区、流量、有效期、热点和短信等公开规则。</p><span>规则 → 决策</span></article>
+          <article class="flow-step"><div class="step-no">03</div><div class="step-line"></div><h3>去下单</h3><p>在 Telegram 内按提示完成购买，少一次页面跳转和人工往返。</p><span>确认 → 付款</span></article>
+          <article class="flow-step"><div class="step-no">04</div><div class="step-line"></div><h3>拿激活信息</h3><p>在线获取安装所需信息，按说明扫码配置移动数据。</p><span>交付 → 上线</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell security-section" id="security">
+      <div class="section-intro"><div class="section-number">03 / 03</div><div><p class="kicker">WHO IS IT FOR</p><h2>旅行、跨境、备用，<br><em>都能从这里开始。</em></h2></div><p class="intro-copy">页面只展示用户需要知道的购买价值，不展示内部接口。打开机器人后，按实际套餐页面确认兼容性、覆盖和使用规则。</p></div>
+      <div class="security-board">
+        <div class="board-head"><span>适合这些人</span><span>你会得到什么</span></div>
+        <div class="board-row"><div><b>✓</b> 临时出差、旅行上网</div><div>在线交付，少等一段物流</div></div>
+        <div class="board-row"><div><b>✓</b> 需要香港 IP / 短信</div><div>按套餐选择网络与号码能力</div></div>
+        <div class="board-row"><div><b>✓</b> 远程办公、热点备用</div><div>手机移动数据，可共享给其他设备</div></div>
+        <div class="board-row"><div><b>✓</b> TG 社群主、个人卖家</div><div>直接在 Telegram 生态里成交</div></div>
+        <div class="board-foot"><span class="status-dot"></span> 具体价格、覆盖、兼容性和服务规则以机器人实时展示为准 <span>↗</span></div>
+      </div>
+    </section>
+
+    <section class="cta shell" id="start"><div><p class="kicker">READY WHEN YOU ARE</p><h2>现在打开机器人，<br>选一张适合你的 eSIM。</h2><p>低至 3.5 CNY/G 的精选方案，香港 IP、短信、热点和长期备用等需求，都从同一个公开入口开始。</p></div><a class="button button-primary" href="https://t.me/esimka_orderbot" target="_blank" rel="noopener">@esimka_orderbot <span>↗</span></a></section>
+  </main>
+
+  <footer class="site-footer shell"><span>eSIM/BOT · public product page</span><span>© 2026 · use responsibly</span><span>套餐覆盖、价格与可用性以实际页面说明为准。</span></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
